@@ -1,0 +1,263 @@
+body {
+  color: #5a5a5a;
+  font-family: "Varela Round", sans-serif;
+}
+
+/* Front Page */
+
+.bg {
+  background-color: transparent;
+  transition: 0.8s ease;
+}
+
+.bg.solid {
+  background-color: #040c14;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+}
+
+.about-me {
+  padding: 15px;
+}
+
+.intro-text {
+  font-family: "Playfair Display", sans-serif;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+  text-align: center;
+  color: #dcdcdc;
+  width: 60%;
+  height: 10%;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.intro-text h1 {
+  font-size: 450%;
+}
+
+.intro {
+  height: 100vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+}
+
+.info {
+  color: white;
+  top: 20%;
+  position: relative;
+}
+
+.section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.title {
+  font-weight: 300;
+  font-size: 2em;
+  letter-spacing: 0.1em;
+}
+
+/* End Front Page */
+
+/* Work Experience */
+
+.job-name-location {
+  text-align: center;
+}
+
+.job-name-location p {
+  margin-bottom: 0 !important;
+}
+
+.experience {
+  padding: 15px;
+}
+
+/* End Work Experience */
+
+/* Projects */
+
+.row-project {
+  padding: 15px;
+}
+
+.project-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.small-project {
+  text-align: center;
+}
+
+/* End Projects */
+
+/* Education and Skills */
+
+.nku {
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-width: 0.7px;
+  -webkit-text-stroke-color: gold;
+}
+
+.uc {
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-width: 0.7px;
+  -webkit-text-stroke-color: red;
+}
+
+.edu-skill p {
+  margin-bottom: 0 !important;
+}
+
+.lang {
+  padding: 10px;
+  width: 12.5%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.25;
+}
+
+.skill-text {
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 0.05em;
+}
+
+.skill-text h5 {
+  margin-bottom: 0 !important;
+}
+
+.edu-title {
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 0.05em;
+}
+
+.edu-info {
+  padding: 15px;
+}
+
+.edu-info p {
+  margin-bottom: 0 !important;
+}
+
+.java:hover {
+  color: red;
+}
+
+.html:hover {
+  color: orange;
+}
+
+.php:hover {
+  color: purple;
+}
+
+.javascript:hover {
+  color: yellow;
+}
+
+.python:hover {
+  color: green;
+}
+
+.mac:hover {
+  color: #78c5ef;
+}
+
+.git:hover {
+  color: #6f42c1;
+}
+
+.rest:hover {
+  color: lightgreen;
+}
+
+/* End Education and Skills */
+
+/* Footer */
+
+.social {
+  text-align: center;
+  padding-top: 12px;
+}
+
+.social-icons {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.fa {
+  color: #5a5a5a;
+  font-size: 48px;
+}
+
+.fa-envelope:hover {
+  color: #f1d592;
+}
+
+.fa-github:hover {
+  color: #6f42c1;
+}
+
+.fa-instagram:hover {
+  color: #c13584;
+}
+
+.fa-linkedin:hover {
+  color: #2867b2;
+}
+
+.copy {
+  padding-top: 5px;
+  padding-bottom: 28px;
+}
+
+/* End Footer */
+
+.my-info {
+  padding-bottom: 12px;
+}
+
+.my-info .row {
+  padding-top: 3em;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.work-title,
+.project-title {
+  text-align: center;
+}
+
+.featurette-divider {
+  color: #2f634d;
+}
+
+/* Media  adjustments */
+@media only screen and (max-width: 768px) {
+  .intro-text h1 {
+    font-size: 36px;
+  }
+
+  .bg.solid-mobile {
+    background-color: #040c14;
+  }
+}

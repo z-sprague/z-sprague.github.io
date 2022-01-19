@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Zack Sprague | CS</title>
+	<link rel="icon" href="img/favicon.png" type="image/x-icon">
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Varela+Round">
+	<!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/hobbies.css" rel="stylesheet">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162932773-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-162932773-1');
+	</script>
+
+</head>
+
+<body>
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-md navbar-dark bg solid" id="myNav">
+        <a class="navbar-brand" href="index.html"><img src="img/signature_1.png" alt="" width=100px height=25px></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+			aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon" onclick="dropdown()"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="resume/Sprague_Resume_2022.pdf" target="_blank">Resume</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="hobbies.html">Hobbies</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End Navigation -->
+    
+    <!-- Content -->
+    <section>
+        <div class="container">
+            <div class="row justify-content-center align-items center">
+                <div class="col-full">
+                    <h2 class="title">MY HOBBIES</h2>
+                    <hr class="featurette-divider" />
+                </div>
+            </div>
+            <div class="row pt-4 align-items-center">
+                <div class="col-md-6 text-center">
+                    <p>Outside of my academics and various programming projects, I find myself involved in a multitude of outdoor activities.
+                        One that consumes a lot of my time is the process of rebuilding and restoring small engine equipment. This includes mainly 
+                        dirtbikes and four-wheelers. I have completely restored multiple vehicles and am always looking for new projects to tackle.
+                        Ever since I was introduced to dirtbikes at a young age, I always find interest in fixing issues, upgrading to better equipment
+                        , and riding at various parks in the United States!
+                    </p>
+                    <p>Here are some samples of what I have completed:</p>
+                </div>       
+                <div class="col-md-6">
+                    <!-- Slideshow container -->
+                    <div class="slideshow-container">
+                        <!-- Full-width images with caption text -->
+                        <div class="slides1 text-center">
+                            <img src="./img/Carousel/Yz426.JPG" alt="pic 1">
+                            <div class="text">2002 YZ426f. No mechanical issues, just physical appearance is rough.</div>
+                        </div>
+                        <div class="slides1 text-center">
+                            <img src="./img/Carousel/newYZ426.jpg" alt="pic 2">
+                            <div class="text">YZ426f restoration before selling</div>
+                        </div>
+                        <div class="slides1 text-center">
+                            <img src="./img/Carousel/beforeBlaster.jpg" alt="pic 3">
+                            <div class="text">1997 Yamaha Blaster. Destroyed appearance with a siezed engine</div>
+                        </div>
+                        <div class="slides1 text-center">
+                            <img src="./img/Carousel/blasterRebuild.jpg" alt="pic 4">
+                            <div class="text">Stripped everything!</div>
+                        </div>
+                        <div class="slides1 text-center">
+                            <img src="./img/Carousel/blasterRestored.jpg" alt="pic 5">
+                            <div class="text">All new parts except for plastics and seat</div>
+                        </div>
+                        <div class="slides1 text-center">
+                            <img src="./img/Carousel/trx.jpg" alt="pic 6">
+                            <div class="text">Appearance looks amazing, engine not so good</div>
+                        </div>
+                        <div class="slides1 text-center">
+                            <img src="./img/Carousel/trxafter.jpg" alt="pic 7">
+                            <div class="text">Engine rebuilt before selling</div>
+                        </div>
+                        <div class="slides1 text-center">
+                            <img src="./img/Carousel/yz250f.jpg" alt="pic 8">
+                            <div class="text">2015 YZ250f - Current ride</div>
+                        </div>
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSlides(-1, 'slides1')">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1, 'slides1')">&#10095;</a>
+                    </div>
+                    <br>
+                    <!-- The dots/circles -->
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1, 'slides1')"></span>
+                        <span class="dot" onclick="currentSlide(2, 'slides1')"></span>
+                        <span class="dot" onclick="currentSlide(3, 'slides1')"></span>
+                        <span class="dot" onclick="currentSlide(4, 'slides1')"></span>
+                        <span class="dot" onclick="currentSlide(5, 'slides1')"></span>
+                        <span class="dot" onclick="currentSlide(6, 'slides1')"></span>
+                        <span class="dot" onclick="currentSlide(7, 'slides1')"></span>
+                        <span class="dot" onclick="currentSlide(8, 'slides1')"></span>
+                    </div> 
+                </div>
+            </div>
+            <hr class="featurette-divider" />
+            <div class="row pt-4 align-items-center">
+                <div class="col-md-6 text-center">
+                    <p>
+                        Sports have and always will be a major part of my life. Baseball and basketball were the main sports I was involved in high school.
+                        However, this did not keep me from exploring others. Disc golf has consumed a lot of my time, basically playing year-round if the weather
+                        is suitable. I have encouraged many friends to play and to have a good time. Aside from casual play, a few of us participate in tournaments that
+                        are hosted in the NKY area.
+                    </p>
+                    <p>
+                        In the summer, I am usually playing basketball in an outdoor league that was created by some friends from high school called Idlewild Basketball League (IBL).
+                        The league has grown immensely since 2015, meaning the competition did too! IBL is a good way to catch up with friends and play some physical basketball.
+                        On the other hand, I tried learning wakeboarding for the past couple of years and always look forward to the summer to try some new tricks on the water.
+                    </p>
+                    <p>
+                        Likewise, I seem to stay busy even if it is not associated with programming or IT projects.
+                    </p>
+                </div>       
+                <div class="col-md-6">
+                    <!-- Slideshow container -->
+                    <div class="slideshow-container">
+                        <!-- Full-width images with caption text -->
+                        <div class="slides2 text-center">
+                            <img src="./img/Carousel/ibl_team.JPG" alt="pic 1">
+                            <div class="text">Idlewild basketball game</div>
+                        </div>
+                        <div class="slides2 text-center">
+                            <img src="./img/Carousel/me_ibl.JPG" alt="pic 2">
+                            <div class="text">IBL</div>
+                        </div>
+                        <div class="slides2 text-center">
+                            <img src="./img/Carousel/frolf.PNG" alt="pic 3">
+                            <div class="text">Playing disc golf</div>
+                        </div>
+                        <div class="slides2 text-center">
+                            <img src="./img/Carousel/wake1.JPG" alt="pic 4">
+                            <div class="text">Casual wakeboarding on the Ohio River</div>
+                        </div>
+                        <div class="slides2 text-center">
+                            <img src="./img/Carousel/wake2.JPG" alt="pic 5">
+                            <div class="text">More wakeboarding</div>
+                        </div>
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSlides(-1, 'slides2')">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1, 'slides2')">&#10095;</a>
+                    </div>
+                    <br>
+                    <!-- The dots/circles -->
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1, 'slides2')"></span>
+                        <span class="dot" onclick="currentSlide(2, 'slides2')"></span>
+                        <span class="dot" onclick="currentSlide(3, 'slides2')"></span>
+                        <span class="dot" onclick="currentSlide(4, 'slides2')"></span>
+                        <span class="dot" onclick="currentSlide(5, 'slides2')"></span>
+                    </div> 
+                </div>
+            </div>
+            <hr class="featurette-divider" />
+            <div class="row pt-4 align-items-center">
+                <div class="col-md-6 text-center">
+                    <p>
+                        As it appears, I basically have no free time. However, I live on a family farm that can be a full-time job!
+                        Mostly in the summertime, I help since school is out. My family breeds, sells, and cares for around 30 Angus cattle.
+                        We produce hay, straw, and silage all for feed. Aside from cattle, we typically raise around 6 swine.
+                        One thing in common with a farming background is that your hands are always full every day.
+                    </p>
+                </div>       
+                <div class="col-md-6">
+                    <!-- Slideshow container -->
+                    <div class="slideshow-container">
+                        <!-- Full-width images with caption text -->
+                        <div class="slides3 text-center">
+                            <img src="./img/Carousel/hay.jpg" alt="pic 1">
+                            <div class="text">Over 100 round bales from the summer</div>
+                        </div>
+                        <div class="slides3 text-center">
+                            <img src="./img/Carousel/calf.png" alt="pic 2">
+                            <div class="text">One of many calves</div>
+                        </div>
+                        <div class="slides3 text-center">
+                            <img src="img/Carousel/pig1.JPG" alt="pic 3">
+                            <div class="text">First year we had pigs</div>
+                        </div>
+                        <div class="slides3 text-center">
+                            <img src="./img/Carousel/pig2.JPG" alt="pic 4">
+                            <div class="text">More pigs</div>
+                        </div>
+                        <div class="slides3 text-center">
+                            <img src="./img/Carousel/lake.jpg" alt="pic 5">
+                            <div class="text">Occasional fishing spot</div>
+                        </div>
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSlides(-1, 'slides3')">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1, 'slides3')">&#10095;</a>
+                    </div>
+                    <br>
+                    <!-- The dots/circles -->
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1, 'slides3')"></span>
+                        <span class="dot" onclick="currentSlide(2, 'slides3')"></span>
+                        <span class="dot" onclick="currentSlide(3, 'slides3')"></span>
+                        <span class="dot" onclick="currentSlide(4, 'slides3')"></span>
+                        <span class="dot" onclick="currentSlide(5, 'slides3')"></span>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+<!-- Footer -->
+<footer class="social">
+	<div class="social-icons">
+		<a href="mailto:zack.sprague1022@gmail.com" class="social-icons"><i class="fa fa-envelope"></i></a>
+		<a href="https://github.com/z-sprague" class="social-icons" target="_blank"><i class="fa fa-github"></i></a>
+		<a href="https://www.instagram.com/zacksprague20/" class="social-icons" target="_blank"><i
+				class="fa fa-instagram"></i></a>
+		<a href="https://www.linkedin.com/in/zack-sprague-b8341715b/" class="social-icons" target="_blank"><i
+				class="fa fa-linkedin"></i></a>
+	</div>
+	<div class="copy">Copyright &copy; Zackary Sprague 2020</div>
+</footer>
+<!-- End Footer -->
+
+<!-- Custom JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="./js/custom.js"></script>
+<!-- End Custom JavaScript -->
+
+</html>
